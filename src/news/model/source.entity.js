@@ -2,6 +2,7 @@ export class Source {
     constructor({
         id = "",
         name = "",
+        author = "",
         description = "",
         url = "",
         category = "",
@@ -9,6 +10,7 @@ export class Source {
         country = ""}) {
         this.id = id;
         this.name = name;
+        this.author = author;
         this.description = description;
         this.url = url;
         this.category = category;

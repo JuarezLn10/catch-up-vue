@@ -53,6 +53,9 @@ export default {
       </p>
       <p class="flex align-content-start flex-wrap">
         <span class="text-sm">
+          {{ article.author }}
+        </span>
+        <span class="text-sm">
           {{article.getFormattedPublishedAt() }}
         </span>
       </p>

@@ -6,8 +6,7 @@ const logoApi = new LogoApiService();
 export class SourceAssembler {
     static toEntityFromResource(resource) {
         let source = new Source({...resource});
-        source.urlToLogo = source.url !== '' ? logoApi.getUrlToLogo(source) : null;
-
+        source.urlToLogo = source.url !== '' ? logoApi.getUrlToLogo(source) : '';
         return source;
     }
 

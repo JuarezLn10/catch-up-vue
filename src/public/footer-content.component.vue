@@ -1,7 +1,6 @@
 <script>
 export default {
-  name: "footer-content",
-  methods: {$t}
+  name: "footer-content"
 }
 </script>
 
